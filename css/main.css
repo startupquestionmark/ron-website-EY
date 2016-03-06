@@ -1,0 +1,98 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { 
+	display: inline-block; 
+}
+* html .clearfix { 
+	height: 1%; 
+}
+.clearfix { 
+	display: block; 
+}
+
+h1{
+	margin-left:30px;
+	font-family: Courier;
+	color: grey;
+	float: left;
+}
+section.navbar { 
+	height: 100px;
+}
+ul.menu {
+	float: right;
+	list-style-type:none;
+	margin:0;
+	padding-top:30px;
+	padding-bottom:30px;
+	padding-right:80px;
+	font-family:Verdana;
+	font-style:strong;
+	color: grey;
+
+}
+
+li.menuchoice {
+	float: right;
+	margin-right: 20px;
+}
+
+li.selected{
+	margin-bottom: 5px;
+	border-bottom: 2px solid blue;
+	color: blue;
+}
+
+img.bg1{
+	margin:0;
+	width:100%;
+	height:500px;
+}
+section.header-image {
+	background-image: url('../mountain.jpg');
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+}
+
+div.content1{
+	margin: 0 auto;
+	margin-top:100px;
+	width: 675px;
+}
+
+img.profile{
+	width:300px;
+	height:300px;
+	border-radius:500px;
+	float:right;
+}
+
+div.words{
+	float:left;
+	padding-top:50px;
+		}
+
+div div h1{
+	font-family: Courier;
+	font-size:30px;
+	font-weight:bold;
+	color:grey;
+	margin-bottom: 5px;
+	padding-left:30px;
+	border-bottom: 2px solid blue;
+}
+
+ul.desc{
+	list-style-type:none;
+	margin-left:70px;
+	font-family: Verdana;
+	font-size:15px;
+	color:grey;
+}
